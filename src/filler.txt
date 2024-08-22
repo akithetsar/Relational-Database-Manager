@@ -1,0 +1,4 @@
+
+CREATE TABLE testtable (test1, test2, test3);
+INSERT INTO testtable (test1, test2, test3) VALUES ("7", "Sofija", "333"), ("8", "Maja", "139");
+

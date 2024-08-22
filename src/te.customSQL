@@ -1,0 +1,10 @@
+CREATE TABLE:
+testtable|(id,name,index);
+mytable|(id,name,index);
+table|(kol1,kol2);
+%
+INSERT INTO:
+mytable|(id,name,index)|("7","Sofija","333");
+mytable|(id,name,index)|("8","Maja","139");
+mytable|(id,name,index)|("7","Sofija","333");
+mytable|(id,name,index)|("8","Maja","139");
