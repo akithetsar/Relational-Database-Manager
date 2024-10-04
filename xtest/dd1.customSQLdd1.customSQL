@@ -1,0 +1,5 @@
+CREATE TABLE:
+testtable|(x1,x2,x3);
+%
+INSERT INTO:
+testtable|(x1,x2,x3)|("v1","v2","v3");

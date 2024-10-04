@@ -1,0 +1,102 @@
+/* General Styles */
+.root {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: #333333;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #f1f1f1;
+    -fx-padding: 5 0 5 0;
+    -fx-font-size: 14px;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: #555555;
+}
+
+.menu-bar .menu:hover {
+    -fx-text-fill: #333333;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #555555;
+    -fx-font-size: 14px;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #e0e0e0;
+}
+
+.list-view .list-cell {
+    -fx-text-fill: #333333;
+    -fx-padding: 8 16;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+/* TableView */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-selection-bar: #f0f0f0;
+    -fx-selection-bar-text: #333333;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f9f9f9;
+    -fx-text-fill: #333333;
+    -fx-border-color: #e0e0e0;
+    -fx-font-weight: bold;
+}
+
+/* CodeArea */
+.keyword {
+    -fx-font-weight: bold;
+    -fx-fill: purple;
+}
+
+.lineno {
+    -fx-text-fill: #707070;
+    -fx-background-color: #fcfcfc;
+}
+
+.main-selection {
+    -fx-fill: #8d8d8d;
+}
+
+.line-highlighter {
+    -fx-fill: #e7e7e7;
+}
+.styled-text-area {
+    -fx-font-size: 16px;
+    -fx-background-color: #fcfcfc;
+    -fx-border-color: #a8b3a8;
+    -fx-border-width: 2px;
+}
+/* Execute Button */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;
+}
