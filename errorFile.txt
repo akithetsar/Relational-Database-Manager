@@ -1,0 +1,1 @@
+DATABASE EXCEPTION: Table with the tableNametest doesn't exists in this database.
